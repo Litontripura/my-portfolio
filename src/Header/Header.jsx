@@ -1,4 +1,4 @@
-import React from 'react';
+
 import HeaderText from './HeaderText';
 import HeaderButton from './HeaderButton';
 import HeaderSocial from './HeaderSocial';
@@ -7,7 +7,7 @@ import HeaderDown from './HeaderDown';
 
 const Header = () => {
     return (
-        <div className=''>
+        <section id='#' className=''>
             <HeaderText></HeaderText>
             <HeaderButton></HeaderButton>
             <div className='flex justify-around md:my-10 items-center my-5'>
@@ -15,7 +15,7 @@ const Header = () => {
               <MyPhoto></MyPhoto>
               <HeaderDown></HeaderDown>
             </div>
-        </div>
+        </section>
     );
 };
 

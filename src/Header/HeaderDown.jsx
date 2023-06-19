@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HeaderDown = () => {
     return (
         <div className='hidden md:block'>
-            <Link to='/about'><AiOutlineDown className='text-white text-2xl'></AiOutlineDown></Link>
+            <a><AiOutlineDown className='text-[#29A6FF] text-2xl'></AiOutlineDown></a>
         </div>
     );
 };

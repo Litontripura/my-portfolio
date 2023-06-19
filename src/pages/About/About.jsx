@@ -1,10 +1,10 @@
-import React from "react";
+
 import "./about.css";
 
 const About = () => {
-  return <div className="background">
+  return <section id="about" className="background">
     <h1>About</h1>
-  </div>;
+  </section>;
 };
 
 export default About;
