@@ -8,6 +8,7 @@ import Services from '../pages/Services/Services';
 import Testimonial from '../pages/Testimonial/Testimonial';
 import Contact from '../pages/Contact/Contact';
 import Footer from '../Shared/Footer';
+import Portfolio from '../pages/PortFolio/Portfolio';
 
 
 
@@ -24,7 +25,7 @@ const Main = () => {
         <Services></Services>
         <Testimonial></Testimonial>
         <Contact></Contact>
-     
+        <Portfolio></Portfolio>
         <Footer></Footer>
           
         

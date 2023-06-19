@@ -3,7 +3,7 @@ nav{
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
-    z-index: 2;
+    z-index: 30;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -17,7 +17,8 @@ nav a{
     font-size: 1.1rem;
 }
 nav a:hover{
-    background: #0E1538;
+    background: #037b9c;
+    color: white;
 }
 nav a.active{
     background: #04B4E4;

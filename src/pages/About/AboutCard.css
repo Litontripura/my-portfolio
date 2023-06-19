@@ -1,0 +1,8 @@
+.bordercolor{
+    border: 2px solid #4db5ff;
+}
+.cardbg{
+    background: #4DB5FF;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}

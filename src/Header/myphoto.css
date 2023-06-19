@@ -53,8 +53,11 @@
     background: #04B4E4;
 }
 .socialafter::before{
+    
     content: "";
     height: 10rem;
     width: 3px;
     background: #04B4E4;
+    display: flex;
+    justify-content: center;
 }
